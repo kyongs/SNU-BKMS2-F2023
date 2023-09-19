@@ -76,7 +76,7 @@ readrandomwriterandom :      53.084 micros/op 18838 ops/sec; ( reads:10172700 wr
 
 Show all of the above results in your report.
 
-### Report submission
+## Report submission
 1. Run DB_Bench to benchmark RocksDB on your system.
 2. Present the ecperimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result.
 
