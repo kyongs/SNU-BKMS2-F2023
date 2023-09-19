@@ -47,7 +47,7 @@ You can see options of `db_bench` using below command ([Details](https://github.
 $ ./db_bench --help
 ```
 
-Run the below command and measure the performance of RocksDB on your system:
+For the report, run the below command and measure the performance of RocksDB on your system:
 
 > Update `-db="/path/to/datadir"` path according to your experimetal environment
 
@@ -74,11 +74,13 @@ readrandomwriterandom :      53.084 micros/op 18838 ops/sec; ( reads:10172700 wr
 - `micros/op`: Microseconds spent processing one operation
 - `ops/sec`: Processed operations per second
 
+Show all of the above results in your report.
+
 ### Report submission
 1. Run DB_Bench to benchmark RocksDB on your system.
 2. Present the ecperimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result.
 
-Organize the results into a single report and submit it. Follow the submission guide for your report.
+Organize the results into a single report and submit it. Follow the [submission guide](./submission-guide.md) for your report.
 
 ## Frequently asked questions
 - RocksDB memory size: ``write_buffer_size`` (Number of bytes to buffer in memtable before compacting) default: 67108864 bytes
