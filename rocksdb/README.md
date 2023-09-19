@@ -74,6 +74,11 @@ readrandomwriterandom :      53.084 micros/op 18838 ops/sec; ( reads:10172700 wr
 - `micros/op`: Microseconds spent processing one operation
 - `ops/sec`: Processed operations per second
 
+### Report submission
+1. Run DB_Bench to benchmark RocksDB on your system.
+2. Present the ecperimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result.
+
+Organize the results into a single report and submit it. Follow the submission guide for your report.
 
 ## Frequently asked questions
 - RocksDB memory size: ``write_buffer_size`` (Number of bytes to buffer in memtable before compacting) default: 67108864 bytes
