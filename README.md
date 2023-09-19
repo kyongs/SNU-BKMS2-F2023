@@ -12,4 +12,4 @@
 | 4 | RocksDB | [Install RocksDB and Measure the Compaction]() |
 
 ## Contact
-If you have a question regarding to the course, please contact the teaching assistant: Kyong-Shik Lee (kyongshikl@gmail.com
+If you have a question regarding to the course, please contact the teaching assistant: Kyong-Shik Lee (kyongshikl@gmail.com)
