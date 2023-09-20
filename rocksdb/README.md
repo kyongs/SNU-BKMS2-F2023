@@ -103,7 +103,7 @@ readrandomwriterandom :       6.014 micros/op 166281 ops/sec 60.019 seconds 9979
 - `micros/op`: Microseconds spent processing one operation
 - `ops/sec`: Processed operations per second
 
-> In the above result, `/tmp/rocksdbtest-100/dbbench` is the DB path.
+> In the above result, `/tmp/rocksdbtest-100/dbbench` is the DB path, where LOG file exists.
 
 
 
