@@ -1,6 +1,9 @@
 # Lab Report Submission
-**아직 레포트 작성하지 마세요 수정중입니다~!**
+**아직 레포트 작성하지 마세요 수정중입니다~!** <br/>
 Make sure that you submit your own individual work. (TBA: 아직 따라하지 마세요)
+
+**Due Date**: 2023.09.24 (Sunday) PM 11:59
+**Where to submit**: ETL
 
 ## Formatting
 
@@ -37,9 +40,10 @@ Make sure that you submit your own individual work. (TBA: 아직 따라하지 �
     - Experimental results (실험 결과)
     - Analysis of the results (실험 결과 분석)
     - Reference; if necessary (참고 문헌)
-- Submit a PDF file with the following file name: `{Student ID}-{Name}-{week#}.pdf` (e.g., `2018000000-이보현-week2.pdf`)
-- Only `.pdf` formats should be submitted
+- Submit a PDF file with the following file name: `{Student ID}-{Name}.pdf` (e.g., `2023-00000-이경식.pdf`)
+- Only `.pdf` formats should be submitted.  A report should be around 1-2 pages.
+  
 
 ## Due date
-- TBD
 - Submit your report via *ETL*
+- Reports are due by **Sunday(midnight)** of the following week after lab.
