@@ -30,11 +30,11 @@ Make sure that you submit your own individual work.
       
         | Type | Configuration |
         |:----------------:|:----------------------:|
-        | DB size          | 2GB (20 warehouse)     |
-        | Buffer Pool Size | 500MB (25% of DB size) |
-        | Benchmark Tool   | tpcc-mysql             |
-        | Runtime          | 1200s                  |
-        | Connections      | 8                      |
+        | Benchmark Tool   | DB Bench             |
+        | Runtime (Duration)          | 600s                  |
+        | write buffer size | 2097152 |
+        | ... | |
+
         
     - Experimental methods (실험 내용 및 방법)
     - Experimental results (실험 결과)
