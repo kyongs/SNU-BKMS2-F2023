@@ -1,6 +1,6 @@
 # Lab Report Submission
-**아직 레포트 작성하지 마세요 수정중입니다~!** <br/>
-Make sure that you submit your own individual work. (TBA: 아직 따라하지 마세요)
+
+Make sure that you submit your own individual work. 
 
 **Due Date**: 2023.09.24 (Sunday) PM 11:59
 **Where to submit**: ETL
