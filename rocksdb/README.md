@@ -53,7 +53,7 @@ For the report, run the below command and measure the performance of RocksDB on 
 
 ```bash
 $ ./db_bench --benchmarks="readrandomwriterandom" \
-        -db="/home/vldb/backup/rocksdb-data" \
+        -db="/path/to/datadir" \
         -use_direct_io_for_flush_and_compaction=true \
         -use_direct_reads=true \
         -write_buffer_size=2097152 \
@@ -65,7 +65,7 @@ $ ./db_bench --benchmarks="readrandomwriterandom" \
         -stats_interval_seconds=10 2>&1 | tee result.txt
 ```
 - `--benchmarks="readrandomwriterandom"`: 1 writer, N threads doing random reads
-- `-db="/home/mijin/backup/rocksdb-data"`: The path of RocksDB data directory
+- `-db="/path/to/datadir"`: The path of RocksDB data directory 
 - `-use_direct_io_for_flush_and_compaction=true`: Use O_DIRECT for background flush and compaction I/O
 - `-use_direct_reads=true`: Use O_DIRECT for reading data
     - You should update this value to change the compaction style
@@ -102,9 +102,14 @@ readrandomwriterandom :       6.014 micros/op 166281 ops/sec 60.019 seconds 9979
 - `ops/sec`: Processed operations per second
 
 > In the above result, `/tmp/rocksdbtest-100/dbbench` is the DB path.
-Show all of the above results in your report.
+
+
+
 
 ### 5. Examine the compaction  stats of RocksDB
+
+Observe the compaction result in `/path/to/rocksdb-data/LOG`
+
 ```
 $ vim /path/to/rocksdb-data (RocksDB log file)
 ...
@@ -121,7 +126,7 @@ Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Mov
 
 ## Report submission
 1. Run DB_Bench to benchmark RocksDB on your system.
-2. Present the ecperimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result.
+2. Present the ecperimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result. (i.e.) # of level, about compaction, ops)
 
 Organize the results into a single report and submit it. Follow the [submission guide](./submission-guide.md) for your report.
 
