@@ -22,8 +22,9 @@ Follow the guide below. If you have any questions, don't hesitate to contact me 
 - bzip2: `sudo apt-get install libbz2-dev`
 - lz4: `sudo apt-get install liblz4-dev`
 - zstandard: `sudo apt-get install libzstd-dev`
-- java: `sudo apt install default-jdk
-sudo apt install default-jre`
+- java:
+  - `sudo apt install default-jdk`
+  - `sudo apt install default-jre`
 
 **[Other platform](https://github.com/facebook/rocksdb/blob/master/INSTALL.md#supported-platforms)**
 
