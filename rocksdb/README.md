@@ -13,6 +13,7 @@ Follow the guide below. If you have any questions, don't hesitate to contact me 
 ### 1. Install pre-requisites:
 
 **Linux - Ubuntu**
+- `$ sudo apt-get update`
 - Upgrade gcc version at least 4.8
 - gflags: `sudo apt-get install libgflags-dev`
   If this doesn't work, here's a nice tutorial: [tutorial link](http://askubuntu.com/questions/312173/installing-gflags-12-04)
