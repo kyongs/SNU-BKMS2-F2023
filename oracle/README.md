@@ -1,4 +1,3 @@
-# Oracle
 
 ## Oracle Live SQL
 - [https://livesql.oracle.com/](https://livesql.oracle.com/)
