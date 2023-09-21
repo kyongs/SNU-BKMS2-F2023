@@ -128,7 +128,8 @@ Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Mov
 
 ## Report submission
 1. Run DB_Bench to benchmark RocksDB on your system.
-2. Present the ecperimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result. (i.e.) # of level, about compaction, ops)
+2. Present the experimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result.
+3. You must observe ops, micro/op, # of levels, compaction stats, level size. 
 
 Organize the results into a single report and submit it. Follow the [submission guide](./submission-guide.md) for your report.
 
