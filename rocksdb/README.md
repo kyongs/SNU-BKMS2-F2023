@@ -85,6 +85,8 @@ $ ./db_bench --benchmarks="readrandomwriterandom" \
 
 > If the level does not increase, you need to increase the benchmark execution time or adjust the memtable size or the multiplier value according to the free capacity of your system.
 
+> I recommend to run the benchmark until the level increases more than 2.
+
 
 ### 4. Record the experimental result
 
@@ -129,7 +131,7 @@ Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Mov
 ## Report submission
 1. Run DB_Bench to benchmark RocksDB on your system.
 2. Present the experimental results. You must include a screenshot of the terminal that includes `readrandomwriterandom :` result.
-3. You must observe ops, micro/op, # of levels, compaction stats, level size. 
+3. You must observe ops, micro/op, # of levels, compaction stats(score, read(GB), write(GB), moved(GB), and so on), size of each level. 
 
 Organize the results into a single report and submit it. Follow the [submission guide](./submission-guide.md) for your report.
 
