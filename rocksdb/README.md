@@ -4,7 +4,7 @@
 
 This week you will install RocksDB and run DB_Bench on your own system.
 
-Follow the guide below. If you have any questions, don't hesitate to contact me via email. 
+Follow the guide below. If you have any questions, don't hesitate to contact me via email. (kyongshikl@gmail.com)
 
 > NOTE: This lab is based on the Linux environment. If you don't have a Linux machine, use [VirturalBox](https://www.virtualbox.org/). (Recommended: Ubuntu 18.04)
 
