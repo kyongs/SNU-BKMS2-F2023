@@ -8,7 +8,7 @@ Make sure that you submit your own individual work.
 
 ## Formatting
 
-- Download the REPORT(TBA).
+- Download the [REPORT](./report-template.docx).
 - All reports must be in either *Korean or English*
 - Make sure that your report includes below chapters:
     - Purpose of the experiment (실험 목적)
