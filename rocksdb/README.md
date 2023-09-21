@@ -1,8 +1,10 @@
-# How to Install RocksDB and DBBench
+# How to Install RocksDB and DBBench & Observe Compaction Statistics
 
 ## Overview
 
-This week you will install RocksDB and run DB_Bench on your own system.
+This week, you will install RocksDB and run DB_Bench on your own system. 
+The objective of this lab is to gain the insight into  how LSM-tree based KV storage works. 
+Specifically, we will focus on compaction statistics and understand it. 
 
 Follow the guide below. If you have any questions, don't hesitate to contact me via email. (kyongshikl@gmail.com)
 
