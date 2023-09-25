@@ -6,21 +6,17 @@ import math
 import time
 
 
-b = 0
-
-input_file_len = 0
-run_list = []
-
-cnt = 0
+RAM_SIZE = 10000 # number of lines
 
 
-def split_file(input_file_name, n):
+
+def split_file(input_file_name):
     """Read the input file and parse into runs. 
        The size of each run should be n numbers(=lines). (PASS 0)
 
     Args:
         input_file_name (_type_): input file name
-        n (integer): size of one run
+        n (integer): size of one run, # of pages
     """
 
     f = open(input_file_name, 'r')
@@ -45,18 +41,17 @@ def external_merge_sort():
 def print_pass_statistics(n, run, io):
     print('[PASS {0}]'.format(n))
     print('  > # of Generated Runs: {0}'.format(run) )
-    print('  > # of IOs: {0}'.format(io)  )
+    print('  > # of IOs: {0}'.format(io) , endl="\n\n" )
 
-    
+
 def print_time_statistics(start_time, end_time):
-    print(f"{end_time - start_time:.5f} sec")
-    
-    
-## !! Do NOT Change the Main Function!!
+    print("==============================")
+    print(f"Execution Time : {end_time - start_time:.5f} sec")
+
+
 if __name__ == '__main__':
     
-    assert (len(sys.argv)==2), 'Argument Missing. $ python3 ./skeleton.py [n]'
-    assert (int(sys.argv[1]) ==50 or int(sys.argv[1]) == 100), f"Argument should be 50 or 100, got {sys.argv[1]}"
+    assert (len(sys.argv)==2), 'Missing Argument. $ python3 ./skeleton.py [n]'
     
     # argument parsing
     n = int(sys.argv[1]) # size of buffer
@@ -66,7 +61,7 @@ if __name__ == '__main__':
     math.factorial(100000)
     
     # 1. split phase
-    split_file("input_file.txt", int(sys.argv[1]))
+    split_file("input_file.txt")
     
     # 2. Merge phase
     external_merge_sort()
@@ -76,4 +71,3 @@ if __name__ == '__main__':
     
     # print statistics
     print_time_statistics(start_time, end_time)
-
