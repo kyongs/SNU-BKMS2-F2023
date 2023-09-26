@@ -3,7 +3,7 @@
 ## Overview
 
 For HW 1, you will implement external-merge-sort. You need to sort a 20 MB file with limited resources of 1MB. <br/>
-Implement on your local environment. (Not Ubuntu!)
+Implement on your local environment in Python. (Not Ubuntu!)
 
 <br/>
 Configurations are as follows.
