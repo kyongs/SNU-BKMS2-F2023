@@ -17,6 +17,7 @@ Configurations are as follows.
 - [link](./skeleton.py)
 - This code is written for your convenience. You are free to change.
 - Related code snippets > [File IO Example Code](./code-snippet.md)
+- We assume that there are only input buffers in RAM. (RAM에는 input 버퍼들로만 구성되어있고, input buffer들을 sorting하는 역할을 하는 output buffer는 용량 제한없이 사용할 수 있다고 가정한다.)
 
 
 ### Input File
