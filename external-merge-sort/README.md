@@ -24,7 +24,30 @@ Configurations are as follows.
 
 ### Input File
 - The file to sort. [link](./input_file.txt)
+- Sort the file with 'key' value.
 
+- For example, if the data is as below, result should be like this.
+  
+  Input File Example
+  ```
+    9122873593MuHNIryLwoSuJOUbvPZiFzKcPXtAfWnbVFTnGXHDCWBRNcYmaByksMUGSspdwVgDgkLTOpxKqhWYFjhbEuqDQeZClY
+    8918265496PTyopqdDJHJBuhxLuQLsGRwECzhKIeSQzMvDZfdYZtjSXffzgEhbwvrXvpUVFnjOuHZqDkdMlgXoKgCnmxapPamWbt
+    3010583290phDaCnsNdDVvlWCcZoukbOYMMUwRgmxoVPKNsrPTqheaiezXObBdShKTLsYbKmCuTXEFcaJkHfiJHiXqyAmqPfSEvj
+    9229061361sJRYxBVeJocGkuoloqnuyedztGuEIiTvHQXUsjObHAnFUCygYSZZwQtbaWTkxJvEIhrhLPjPqNVKURFdPgCAMCBSil
+    9363798209angGDhbnDzZUlLeMIBuwVRvfWKHHBsyArOqtAbRmEHpPpEYDxuizcnclUjxSvBOjZCJeQNoxFdsTtCTaRFJXVcXmKG
+    1416363649iKbajocMyCFBTXkgdKOfwFbeXRJgxRjOPvTCYHRfjBhLyGcUQEuHZtVhSwQSuYEVampAqzkxNitmxGEVvmCzNnJUnc
+    8382079481KIYlZWGWPZWneVRoyBBXtzCMNiLpKkxhSRytLBmCxnOJuczHAbFdHUmrlgOwsoSsFEIibvqChQMXlcvzTksrPtZbjm
+  ```
+  Corresponding Output
+  ```
+    1416363649iKbajocMyCFBTXkgdKOfwFbeXRJgxRjOPvTCYHRfjBhLyGcUQEuHZtVhSwQSuYEVampAqzkxNitmxGEVvmCzNnJUnc
+    3010583290phDaCnsNdDVvlWCcZoukbOYMMUwRgmxoVPKNsrPTqheaiezXObBdShKTLsYbKmCuTXEFcaJkHfiJHiXqyAmqPfSEvj
+    8382079481KIYlZWGWPZWneVRoyBBXtzCMNiLpKkxhSRytLBmCxnOJuczHAbFdHUmrlgOwsoSsFEIibvqChQMXlcvzTksrPtZbjm
+    8918265496PTyopqdDJHJBuhxLuQLsGRwECzhKIeSQzMvDZfdYZtjSXffzgEhbwvrXvpUVFnjOuHZqDkdMlgXoKgCnmxapPamWbt
+    9122873593MuHNIryLwoSuJOUbvPZiFzKcPXtAfWnbVFTnGXHDCWBRNcYmaByksMUGSspdwVgDgkLTOpxKqhWYFjhbEuqDQeZClY
+    9229061361sJRYxBVeJocGkuoloqnuyedztGuEIiTvHQXUsjObHAnFUCygYSZZwQtbaWTkxJvEIhrhLPjPqNVKURFdPgCAMCBSil
+    9363798209angGDhbnDzZUlLeMIBuwVRvfWKHHBsyArOqtAbRmEHpPpEYDxuizcnclUjxSvBOjZCJeQNoxFdsTtCTaRFJXVcXmKG
+  ```
 
 
 ### Result
