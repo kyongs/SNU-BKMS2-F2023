@@ -7,8 +7,8 @@
 |# | Database | Contents | Desc | 
 | --- | ---- | --- | --- |
 | 1 | Oracle | [Oracle Live SQL Scripts](./oracle/README.md) | |
-| 2 | MySQL  |  [Measure MySQL Performance by Varying the Buffer Size](./mysql/README.md) | |
-| 3 | RocksDB | [Install RocksDB and Measure the Compaction](./rocksdb/README.md) | |
+| 2 | MySQL  |  [Measure MySQL Performance by Varying the Buffer Size](./mysql/README.md) | Practice 1|
+| 3 | RocksDB | [Install RocksDB and Measure the Compaction](./rocksdb/README.md) | Practice 2|
 | 4 | - | [External Merge Sort](./external-merge-sort/README.md) | HW1 |
 
 ## Contact
