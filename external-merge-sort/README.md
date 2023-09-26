@@ -10,7 +10,7 @@ Configurations are as follows.
 - **Size of Input File**: 20MB
 - **RAM Size**: 1MB
 - **Buffer Size**: 50KB, 100KB
-- We assume that there are only input buffers in RAM. (RAM에는 input 버퍼들로만 구성되어있고, input buffer들을 sorting하는 역할을 하는 output buffer는 용량 제한없이 사용할 수 있다고 가정한다.)
+- We assume that there are only input buffers in RAM. (RAM에는 input 버퍼들로만 구성되어있고, input buffer들을 sorting하는 역할을 하는 output buffer는 용량 제한없이 사용할 수 있다고 가정한다. 예를 들면, buffer size 50KB 설정시 1MB ram 안에는 20개의 input buffer가 존재한다. 이들을 merge하기 위한 추가적인 자료구조는 용량에 구애받지 않고 사용할 수 있다. )
 
 
 
