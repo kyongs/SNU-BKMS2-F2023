@@ -70,7 +70,9 @@ Configurations are as follows.
     ```
 
 - `# of Generated Runs`: The number of runs generated at the end of each pass.
-- `# of IOs`: The number of IO operations that occurred during each pass. 
+- `# of IOs`: The number of IO operations that occurred during each pass.
+  -   Size of one I/O is 100 B (1 line).
+  -   Increase the I/O count variable when you read or write 100 B.
 - `Execution Time`: The time from the start of the Split Phase until the end of the Merge Phase.
 
 
