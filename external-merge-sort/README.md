@@ -77,7 +77,7 @@ Configurations are as follows.
 
 
 ### Submission Guide
-> **Due Date**: **2023.10.6** (Sunday) PM 11:59
+> **Due Date**: **2023.10.6** (Friday) PM 11:59
 >
 > **Where to Submit**: ETL
 >
