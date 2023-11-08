@@ -11,7 +11,7 @@
 | 3 | RocksDB | [Install RocksDB and Measure the Compaction](./rocksdb/README.md) | Practice 2| 2023.09.21 |
 | 4 | - | [External Merge Sort](./external-merge-sort/README.md) | Assignment 1 | 2023.09.26|
 | 5 |  EverSQL | [EverSQL vs. ChatGPT](./nl2sql/README.md) |  Practice 4 | 2023.11.09 |
-| 6 |  ChatGPT | [How to Train ChatGPT for NL2SQL](./nl2sql/README.md) |  Assignment 3 | 2023.11.09 |
+| 6 |  ChatGPT | [How to Train ChatGPT for NL2SQL](./nl2sql/assignment3.md) |  Assignment 3 | 2023.11.09 |
 | 7 |  Postgres | [VectorDB (pgvector)](./vectordb/README.md) |  Practice 5 | 2023.11.09 |
 | 8 |  DataChat | TBA |  TBA | TBA |
 
