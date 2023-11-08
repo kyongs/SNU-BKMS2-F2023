@@ -1,2 +1,0 @@
-## EverSQL vs. ChatGPT
-
