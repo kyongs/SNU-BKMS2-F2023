@@ -38,10 +38,10 @@ information in the prompt, and document this process in a report.
 
 ## Submission Guide
 > Due Date: 2023.11.15 11:59 PM
-<br/>
 > Where: ETL
 
 1. Name of file should be **“Assignment3-studentID.pdf”**. (-10 points if the file format is not pdf)
 2. Late submissions are penalized by **20%** of total grade per day. <br/>
 3. Write the **ChatGPT version** you used in the report. <br/>
 4. Download the [REPORT TEMPLATE](./report-template.docx). *(This is just a formatting example, write report in a free format.)*
+5. The report should include "conclusion" chapter.
