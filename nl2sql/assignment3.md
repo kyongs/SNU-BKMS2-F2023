@@ -37,6 +37,10 @@ information in the prompt, and document this process in a report.
 - You can choose columns as you wish for the SELECT statement.<br/>
 
 ## Submission Guide
+> Due Date: 2023.11.15 11:59 PM
+<br/>
+> Where: ETL
+
 1. Name of file should be **“Assignment3-studentID.pdf”**. (-10 points if the file format is not pdf)
 2. Late submissions are penalized by **20%** of total grade per day. <br/>
 3. Write the **ChatGPT version** you used in the report. <br/>
